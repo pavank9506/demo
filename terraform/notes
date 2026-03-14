@@ -1,0 +1,32 @@
+terraform notes
+----------------
+
+Manual Infra
+-----------------
+Everything in console.... by mistake if someone edit wrong, then app will go down...30min-1hr
+application restore back to previous stage if something goes wrong
+
+Version control
+
+Consistent Infra --> All environment configs and infra should be some..
+
+CRUD --> Create infra, read, update, deleting the infra
+
+Inventory/resource management --> If you see tf script, you know what are the services you are using
+
+Cost optimisation --> creation in 5min, deletion in 5min
+
+Dependency management --> sg, ec2 instance after creation of all dependencies
+
+Code reuse --> Roles. Modules
+
+Declarative way of creating infra --> You are giving orders to terraform to create infra just by providing right syntax
+
+easy syntax
+no sequence
+state management --> Terraform can track what it created, can update easily
+
+mysql --> mysqlll
+
+
+HCL --> Hashicorp configuration language
